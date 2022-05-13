@@ -1,0 +1,173 @@
+/* ====================================THIS IS THE SECOND STYLE========================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+}
+
+#home{
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(221, 201, 201, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/227-2279744_dirty-sprite-wallpaper.jpg);
+  background-size :cover;
+  background-attachment: fixed;
+}
+#about{
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(221, 201, 201, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/wallpaperrrrrr.jpg);
+  background-size :cover;
+  background-attachment: fixed;
+}
+#resume{
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(221, 201, 201, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/wallpaperrrrrr2.jpg);
+  background-size :cover;
+  background-attachment: fixed;
+}
+
+#testimonial{
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(221, 201, 201, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/wallpaperrrrrr.jpg);
+  background-size :cover;
+  background-attachment: fixed;
+}
+#contact{
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(221, 201, 201, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/wallpaperrrrrr2.jpg);
+  background-size :cover;
+  background-attachment: fixed;
+}
+
+#projects{
+  background: 
+  /* top, transparent red, faked with gradient */ linear-gradient(
+    rgba(221, 201, 201, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */ url(/images/wallpaperrrrrr2.jpg);
+background-size :cover;
+background-attachment: fixed;
+}
+
+.home-con {
+  margin-top: 150px;
+}
+
+
+#About {
+  scroll-margin: 110px;
+}
+#About {
+  scroll-margin: 110px;
+}
+#skills {
+  scroll-margin: 110px;
+}
+#resume {
+  scroll-margin: 110px;
+}
+#testimonial {
+  scroll-margin: 110px;
+}
+#contact {
+  scroll-margin: 110px;
+}
+
+
+.header2{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 80px;
+  text-decoration: underline;
+  color: ghostwhite;
+  text-shadow: 2px 2px red;
+}
+
+#animation{
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px red;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 180px;
+  background: #486255;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}
+
+.linkz{
+ 
+  align-content: space-between;
+  gap: 40px;
+  font-size: 40px;
+  
+}
+
+.projects{
+  margin-top: 200px;
+}
